@@ -4,7 +4,8 @@ public class Control {
     TV tv;
 
     public void enlazar(TV tv){
-        tv.control(this);
+        tv.setControl(this);
+        this.tv = tv;
     }
 
     public void turnOn(){

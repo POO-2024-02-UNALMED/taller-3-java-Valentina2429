@@ -14,10 +14,12 @@ public class TV {
         this.estado = estado;
 
     }
-
-    
+  
     public static void contar(){ //meter esto en el constructor
         numTV += 1;
+    }
+    public static void setNumTV( int num){
+        numTV = num;
     }
 
     public void setMarca(Marca marca){
